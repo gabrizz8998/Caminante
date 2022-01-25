@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Plantilla</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div id="contenedor">
+    <header id="cabecera">
+        <h1 id="titulo">Caminante</h1>
+
+      
+    </header>
+    <nav id="menu">
+      
+
+    </nav>
+    <section id="seccion">
+      
+
+      <article>
+        <div class="map_canvas" id="map_canvas" style="width:100%; height: 380px;">
+          
+        </div>
+      </article>
+
+      <article>
+        <header>
+          <hgroup>
+            <h1>Opciones de mapa</h1>
+            
+            Color del trazado <input type="color" id="color" value="#FF0000"></br>
+            Grosor<input type="range"  min="1" max="20" id="grosor" value="2"><label id=valor>2</label></br>
+            Zoom<input type="range" min="1" max="22" id="zoom" value="18"><label id=valor_zoom>18</label></br>
+            <input type=button onclick="reiniciar()" value="Reiniciar">
+        </header>      
+      </article>
+    </section>
+    
+    <footer id="pie">
+
+    </footer>
+  </div>
+
+  <script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeNRBEIWYeWRRvY8On_9pkSD1_J_zLykQ&libraries=geometry">
+</script>
+
+<script src="./js/mapa.js"></script>
+<script src="./js/funciones.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+<dato>
+    <id>1111</id>
+   <nombre>Perico</nombre>
+   <imagen>https://www.informaticasc2.com/gmu/farola.jpg</imagen>
+</dato>
+<dato>
+    <id>22222</id>
+  <nombre>Epifanio</nombre>
+ <imagen>https://www.informaticasc2.com/gmu/banco.jpg</imagen>
+</dato>
+</datos>
